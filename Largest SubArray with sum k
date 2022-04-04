@@ -1,0 +1,39 @@
+class Solution{
+    public:
+    int findSubArraySum(int Arr[], int N, int k)
+    {
+        // code here
+        int i = 0;
+        int j = 0;
+        int max = INT_MIN;
+        long long sum = 0;
+        while(j<sum)
+        {
+            sum = sum + Arr[j];
+            if(sum<k)
+            {
+                j++;
+            }
+            else if(sum == k)
+            {
+                if(j-i+1>max) // window size nikal kr check kr rhee
+                {
+                    max = j-i+1; // maximum ko udate kia hai yahaan
+                    j++;
+                }
+                if(sum>k)
+                {
+                    while(sum>k)
+                    {
+                        sum = sum - Arr[i];
+                        
+                    }
+                    
+                    
+                }
+                i++;
+            }
+        }
+        return max;
+    }
+};
