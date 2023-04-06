@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/14-days-leetcode-challenge-algorith/static/css/main.56173bfd.css",
+    "main.js": "/14-days-leetcode-challenge-algorith/static/js/main.1074c141.js",
+    "index.html": "/14-days-leetcode-challenge-algorith/index.html",
+    "main.56173bfd.css.map": "/14-days-leetcode-challenge-algorith/static/css/main.56173bfd.css.map",
+    "main.1074c141.js.map": "/14-days-leetcode-challenge-algorith/static/js/main.1074c141.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56173bfd.css",
+    "static/js/main.1074c141.js"
+  ]
+}
